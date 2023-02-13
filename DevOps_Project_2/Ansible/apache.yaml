@@ -1,5 +1,5 @@
-- name: This sets up an httpd webserver
-  hosts: all
+- name: install services
+  hosts: 34.245.124.245
   become: yes
   remote_user: ec2-user
   gather_facts: false
